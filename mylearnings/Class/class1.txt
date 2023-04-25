@@ -1,0 +1,38 @@
+What is Emmet?
+A) Emmet used for the completing the abbrevations and short expressions to complete the code.
+
+What is an react element?
+A) React element is an object, {}
+
+Difference between a Library and Framework?
+A)A library can be reusable but not a Framework. Library is basically a class definitions to reuse the code, there is no need to start from the scracth.
+ framework is like a blueprint. libraries are like complete module.
+
+What is CDN? Why do we use it?
+A) Content delivery network in simple way we can say it as, it is used for the specified reason or region.
+ CDN can reduce the page loading issues of time. CDN consist of two types of Contentdeliveries, 
+ STATIC: Static content is like does not change the website, like image, logos, content. It remains a static content to user to user.
+ DYNAMIC: Dynamic content is changable like for example social media, chat messages, news feed. This data vary to user to user for every interaction.
+
+Why is React known as React?
+A) React is a javascript library, It is developed by the facebook. React is choosen by developers to build user interfaces,
+  that are very fastly responsive or 'reactive'. The idea behind react is to build reusable components for front-end, rather than writing the 
+  new code everytime. React is made easy for the developers and it is popular among developers of its performance and flexibility.
+
+What is crossorigin in script tag?
+A) CORS is used to manage crossorigin requests. A crossorigin request is a request for a resource from another domain.
+
+
+What is diference between React and ReactDOM?
+A) React is javascript library we use it for the development of user interfaces. ReactDOM is like the browser support
+  for the React. when we use the classes, components etc i.e. react and when we use the render() and findDOMNode() is ReactDOM.
+  ReactDOM binds the web browser with react, intially react has nothing to do with browser. There also the other diff, tools which are detailed from the react
+  but they wont rely on the ReactDOM. 
+
+What is difference between react.development.js and react.production.js files via CDN?
+A) The development code is nae says that from the developing side. The production is for the client side build.
+
+
+What is async and defer?
+A) async and defer are boolean attributes which are used along with script tags to load the external scripts.
+  Async: async process in 

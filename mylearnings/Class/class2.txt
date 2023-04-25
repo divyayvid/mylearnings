@@ -1,0 +1,98 @@
+Q) What is `NPM`?
+A) Basically npm is knowing as the node package manager. npm is a worlds largest library, it is also a software 
+  package manager and installer. open-source developers use npm to share software. npm is free to use.
+
+Q) What is `Parcel/Webpack`? Why do we need it?
+A) parcel and webpack are the bundlers used mostlty for javascript and typescript to minify, clean and compact the code.
+  So it becomes easy for to send a request or receive the response frm the server. both of these bundlers takes less
+  time for the transfer of data and files from the server to application.
+
+  Webpack is a tool that lets you build your javascript applications.   
+
+Q) What is `.parcel-cache`
+A) The .cashe folder or (.parcel-cache folder) stores the information about the project when the parcel builds it. 
+
+Q) What is `npx` ?
+A) npx is an npm package runner that makes it easy to install any sort of node. there are no.of ways to install node modules
+   you can have them globally or locally. instead of these two if just want to install one package it is also possible
+   through npx. when we run a package of npx it searches from the local and global history and then it runs.
+   if the package is not installed, npx downloads the package files and installs it but it will only cache the files
+   instead of saving it.
+   ex: npx create-react-app my-app
+
+Q) What is difference between `dependencies` vs `devDependencies`
+A) In every project we have a file called package.json. this file contains all relevant data regarding the project i.e metadata.
+  starting from all the dependencies are present in the file, in this way we have three types of dependencies. They are
+  dependencies, devdependencies and peer dependencies.
+
+  dependencies: In a package.json there is a file called dependencies, consist of all the packages which are included
+  in our project. so, whenever we install any library it is added in the dependencies object.
+
+  devDependencies: It consists of all the packages in the package.json which are required for the project in the development
+  phase not in the production or testing. so, whenever we want to install any library in development phase
+  we can install it into the devDependencies object. Ex: npm install bootstrap --save-dev
+  
+  peer dependencies: with the dependencies we can have the diff versions for the each dependency. we can indicate which versions should
+  used for which libraries.
+
+Q) What is Tree Shaking?  
+A) Tree shaking a term that used in javascript context it describe to removal of the dead code. it relies on the 
+import and export statements to detect if code modules exported or imported between javascript files.
+In odern javascript applications we use webpack or rollup for the removal of dead code when bundling with javascript
+files into single files.
+
+Q) What is Hot Module Replacement?
+A) Hot Module Replacement is one of the most useful feature offered by Webpack. It allows all kinds of modules
+   to be updated at runtime without the need for a full refresh.
+
+Q) List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+A) HMR (Hot Module Replacement)  
+
+Q) What is `.gitignore`? What should we add and not add into it? 
+A) .gitignore tells git that which files should get ignore. It usually used to avoid transient files(temporary)
+   from our working directory that are not useful to other collaborators. 
+   
+Q) What is the difference between `package.json` and `package-lock.json`
+A) package-lock.json is created for locking the dependency with the installed version. it will install the exact 
+   latest version of that package in our application and save it in package.json
+   package.json : it records important metadata about the project, it contains name, desription, author, script and
+   dependencies
+   package-lock.json : it allows future devs to install the same dependencies in the project. it contains the name,
+   dependencies and locked version of the project.
+
+Q) Why should I not modify `package-lock.json`?
+A) it stores an exact versioned dependency tree. tis means we can guarentee the dependenciesfor other developers
+   or prod releases. it also has a mechanism to lock the tree but generally will regenerate package.json changes.
+   if it changed it wont work in the production.
+
+Q) What is `node_modules` ? Is it a good idea to push that on git?  
+A) node_modules folders like the cache for the external modules that our project depends upon. Don't put the node_modules
+   into git.
+
+Q) What is the `dist` folder?
+A) The src and dist folders are essential components of any software development project. They are used to store
+   the source code and compiled code. src folder is where developers write their code, and dist folder is where the 
+   compiled code is stored. The purpose of src and dist folderds is to separate the source code and compiled code.
+
+Q) What is `browserlists`?
+A) browserlists is a tool that allows specifying which browsers should be supporting in our frontend app by specifying
+   queries in a config file.
+
+vite: vite is a web based integrated development environment(IDE) i.e., designed to be fast and lightweight
+ alternative to traditional IDEs. It is a cloud-based IDE that runs on any device and is accessible from any browser
+
+Webpack: Webpackis a module bundler for javascript applications. it is used to bundle javascript files for usage
+  is any browser
+
+  consider vite if we want lightweight IDE that is accessible from any browser
+  consider webpack if we want to bundle javascript files for usage in browser.
+
+Parcel: parcel is zero configuration web application bundler that is fast and easy to use.
+
+^ - caret and ~ - tilda: tilde matches the most recent version(last number), caret matches the most most recent
+   minor version(middle number) ex: 3.5.6
+
+
+Read about Script types in html (MDN Docs): mozilla developer network provide developers with the information They
+ need to easily build projects on the open web. 
